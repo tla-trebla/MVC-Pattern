@@ -16,3 +16,12 @@
  ## Code Example
  */
 import UIKit
+
+// MARK: - Address
+
+public struct Address {
+    public var street: String
+    public var city: String
+    public var state: String
+    public var zipCode: String
+}
