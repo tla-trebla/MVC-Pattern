@@ -16,6 +16,7 @@
 		5E2F157D2704D4770066D660 /* QuestionGroupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F157C2704D4770066D660 /* QuestionGroupData.swift */; };
 		5E2F157F2704D6D90066D660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2F157E2704D6D90066D660 /* Assets.xcassets */; };
 		5E2F15812704D72A0066D660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2F15802704D72A0066D660 /* LaunchScreen.storyboard */; };
+		5E2F15832704E37B0066D660 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F15822704E37B0066D660 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5E2F157C2704D4770066D660 /* QuestionGroupData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionGroupData.swift; path = ../../../projects/resources/QuestionGroupData.swift; sourceTree = "<group>"; };
 		5E2F157E2704D6D90066D660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../projects/resources/Assets.xcassets; sourceTree = "<group>"; };
 		5E2F15802704D72A0066D660 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../projects/resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E2F15822704E37B0066D660 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				5E2F15642704BBF60066D660 /* Main.storyboard */,
 				5E2F15802704D72A0066D660 /* LaunchScreen.storyboard */,
+				5E2F15822704E37B0066D660 /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				5E2F15632704BBF60066D660 /* QuestionViewController.swift in Sources */,
 				5E2F15792704D27B0066D660 /* Question.swift in Sources */,
 				5E2F155F2704BBF60066D660 /* AppDelegate.swift in Sources */,
+				5E2F15832704E37B0066D660 /* QuestionView.swift in Sources */,
 				5E2F157D2704D4770066D660 /* QuestionGroupData.swift in Sources */,
 				5E2F157B2704D36F0066D660 /* QuestionGroup.swift in Sources */,
 				5E2F15612704BBF60066D660 /* SceneDelegate.swift in Sources */,
