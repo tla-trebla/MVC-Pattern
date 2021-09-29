@@ -62,9 +62,7 @@
 				5E2F15762704CED20066D660 /* Resources */,
 				5E2F15772704CEDB0066D660 /* Views */,
 				5E2F15642704BBF60066D660 /* Main.storyboard */,
-				5E2F15672704BBF70066D660 /* Assets.xcassets */,
 				5E2F15692704BBF70066D660 /* LaunchScreen.storyboard */,
-				5E2F156C2704BBF70066D660 /* Info.plist */,
 			);
 			path = RabbleWabble;
 			sourceTree = "<group>";
@@ -96,6 +94,8 @@
 		5E2F15762704CED20066D660 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5E2F15672704BBF70066D660 /* Assets.xcassets */,
+				5E2F156C2704BBF70066D660 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
