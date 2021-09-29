@@ -61,8 +61,6 @@
 				5E2F15752704CECA0066D660 /* Models */,
 				5E2F15762704CED20066D660 /* Resources */,
 				5E2F15772704CEDB0066D660 /* Views */,
-				5E2F15642704BBF60066D660 /* Main.storyboard */,
-				5E2F15692704BBF70066D660 /* LaunchScreen.storyboard */,
 			);
 			path = RabbleWabble;
 			sourceTree = "<group>";
@@ -103,6 +101,8 @@
 		5E2F15772704CEDB0066D660 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5E2F15642704BBF60066D660 /* Main.storyboard */,
+				5E2F15692704BBF70066D660 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
