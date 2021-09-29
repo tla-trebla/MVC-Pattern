@@ -57,8 +57,10 @@
 			isa = PBXGroup;
 			children = (
 				5E2F15732704CD600066D660 /* AppDelegate */,
-				5E2F15602704BBF60066D660 /* SceneDelegate.swift */,
-				5E2F15622704BBF60066D660 /* QuestionViewController.swift */,
+				5E2F15742704CE990066D660 /* Controllers */,
+				5E2F15752704CECA0066D660 /* Models */,
+				5E2F15762704CED20066D660 /* Resources */,
+				5E2F15772704CEDB0066D660 /* Views */,
 				5E2F15642704BBF60066D660 /* Main.storyboard */,
 				5E2F15672704BBF70066D660 /* Assets.xcassets */,
 				5E2F15692704BBF70066D660 /* LaunchScreen.storyboard */,
@@ -71,8 +73,38 @@
 			isa = PBXGroup;
 			children = (
 				5E2F155E2704BBF60066D660 /* AppDelegate.swift */,
+				5E2F15602704BBF60066D660 /* SceneDelegate.swift */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5E2F15742704CE990066D660 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E2F15622704BBF60066D660 /* QuestionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5E2F15752704CECA0066D660 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E2F15762704CED20066D660 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E2F15772704CEDB0066D660 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
