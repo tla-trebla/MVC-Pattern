@@ -38,7 +38,11 @@ public final class AddressView: UIView {
 public final class AddressViewController: UIViewController {
     
     // MARK: - Properties
-    public var address: Address?
+    public var address: Address? {
+        didSet {
+            updateViewFromAddress()
+        }
+    }
     public var addressView: AddressView! {
         guard isViewLoaded else {
             return nil
