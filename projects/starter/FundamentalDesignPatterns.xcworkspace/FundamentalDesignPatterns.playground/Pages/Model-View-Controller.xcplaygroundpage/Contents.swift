@@ -45,4 +45,14 @@ public final class AddressViewController: UIViewController {
         }
         return (view as! AddressView)
     }
+    
+    private func updateViewFromAddress() {
+        guard let addressView = addressView, let address = address else {
+            return
+        }
+        addressView.streetTextField.text = address.street
+        addressView.cityTextField.text = address.city
+        addressView.stateTextField.text = address.state
+        addressView.zipCodeTextField.text = address.zipCode
+    }
 }
