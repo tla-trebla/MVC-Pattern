@@ -25,3 +25,11 @@ public struct Address {
     public var state: String
     public var zipCode: String
 }
+
+// MARK: - AddressView
+public final class AddressView: UIView {
+    @IBOutlet public var streetTextField: UITextField!
+    @IBOutlet public var cityTextField: UITextField!
+    @IBOutlet public var stateTextField: UITextField!
+    @IBOutlet public var zipCodeTextField: UITextField!
+}
