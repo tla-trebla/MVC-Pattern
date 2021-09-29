@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  QuestionViewController.swift
 //  RabbleWabble
 //
 //  Created by Albert Pangestu on 29/09/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class QuestionViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
