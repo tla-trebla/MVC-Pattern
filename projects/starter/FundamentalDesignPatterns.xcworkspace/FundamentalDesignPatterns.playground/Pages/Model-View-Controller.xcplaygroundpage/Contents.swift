@@ -33,3 +33,16 @@ public final class AddressView: UIView {
     @IBOutlet public var stateTextField: UITextField!
     @IBOutlet public var zipCodeTextField: UITextField!
 }
+
+// MARK: - AddressViewController
+public final class AddressViewController: UIViewController {
+    
+    // MARK: - Properties
+    public var address: Address?
+    public var addressView: AddressView! {
+        guard isViewLoaded else {
+            return nil
+        }
+        return (view as! AddressView)
+    }
+}
