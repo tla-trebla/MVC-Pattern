@@ -22,9 +22,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hint" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1c-dI-5mP">
-                                <rect key="frame" x="186" y="436" width="43" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hint" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1c-dI-5mP">
+                                <rect key="frame" x="0.0" y="172" width="414" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -42,6 +41,9 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PDQ-95-wqX" secondAttribute="trailing" id="BkX-Oh-lcj"/>
                             <constraint firstItem="PDQ-95-wqX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ER9-ju-MYG"/>
+                            <constraint firstItem="p1c-dI-5mP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RVq-tC-1Ag"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p1c-dI-5mP" secondAttribute="trailing" id="T3e-KN-T8v"/>
+                            <constraint firstItem="p1c-dI-5mP" firstAttribute="top" secondItem="PDQ-95-wqX" secondAttribute="bottom" constant="8" id="bIr-Xg-WK5"/>
                             <constraint firstItem="PDQ-95-wqX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="w8A-Ry-Nja"/>
                         </constraints>
                     </view>
