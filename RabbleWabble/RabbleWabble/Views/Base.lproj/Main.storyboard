@@ -12,7 +12,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="QuestionViewController" customModule="RabbleWabble" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="QuestionView" customModule="RabbleWabble" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -78,6 +78,13 @@
                             <constraint firstItem="PDQ-95-wqX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="w8A-Ry-Nja"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bMY-bi-dvS" secondAttribute="trailing" id="xeC-3p-8Ll"/>
                         </constraints>
+                        <connections>
+                            <outlet property="answerLabel" destination="bMY-bi-dvS" id="dWv-Lk-Svt"/>
+                            <outlet property="correctCountLabel" destination="Lv4-8n-kiV" id="QK3-SD-2sa"/>
+                            <outlet property="hintLabel" destination="p1c-dI-5mP" id="789-HM-xUd"/>
+                            <outlet property="incorrectCountLabel" destination="iiL-TW-w0J" id="5di-wT-Rax"/>
+                            <outlet property="promptLabel" destination="PDQ-95-wqX" id="S7R-et-O59"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
