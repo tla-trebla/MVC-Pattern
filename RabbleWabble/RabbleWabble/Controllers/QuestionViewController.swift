@@ -46,5 +46,28 @@ public class QuestionViewController: UIViewController {
         questionView.hintLabel.isHidden = !questionView.hintLabel.isHidden
     }
 
+    // 1
+    @IBAction func handleCorrect(_ sender: Any) {
+        correctCount += 1
+        questionView.correctCountLabel.text = "\(correctCount)"
+        showNextQuestion()
+    }
+    
+    // 2
+    @IBAction func handleIncorrect(_ sender: Any) {
+        incorrectCount += 1
+        questionView.incorrectCountLabel.text = "\(incorrectCount)"
+        showNextQuestion()
+    }
+    
+    // 3
+    private func showNextQuestion() {
+        questionIndex += 1
+        guard questionIndex < questionGroup.questions.count else {
+            // TO-DO: Handle this...!
+            return
+        }
+        showQuestion()
+    }
 }
 
