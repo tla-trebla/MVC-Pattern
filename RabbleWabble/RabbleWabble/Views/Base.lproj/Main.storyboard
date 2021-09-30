@@ -59,6 +59,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="Lv4-8n-kiV" firstAttribute="centerX" secondItem="YAM-Og-ns0" secondAttribute="centerX" id="4tV-mk-M0G"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PDQ-95-wqX" secondAttribute="trailing" id="BkX-Oh-lcj"/>
@@ -84,10 +85,16 @@
                             <outlet property="hintLabel" destination="p1c-dI-5mP" id="789-HM-xUd"/>
                             <outlet property="incorrectCountLabel" destination="iiL-TW-w0J" id="5di-wT-Rax"/>
                             <outlet property="promptLabel" destination="PDQ-95-wqX" id="S7R-et-O59"/>
+                            <outletCollection property="gestureRecognizers" destination="fl2-hM-DSx" appends="YES" id="3kf-3A-ZO2"/>
                         </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="fl2-hM-DSx">
+                    <connections>
+                        <action selector="toggleAnswerLabels:" destination="BYZ-38-t0r" id="39A-WN-r6k"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="20" y="83"/>
         </scene>
