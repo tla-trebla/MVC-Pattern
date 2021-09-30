@@ -39,6 +39,12 @@ public class QuestionViewController: UIViewController {
         questionView.answerLabel.isHidden = true
         questionView.hintLabel.isHidden = true
     }
+    
+    // MARK: - Actions
+    @IBAction func toggleAnswerLabels(_ sender: Any) {
+        questionView.answerLabel.isHidden = !questionView.answerLabel.isHidden
+        questionView.hintLabel.isHidden = !questionView.hintLabel.isHidden
+    }
 
 }
 
